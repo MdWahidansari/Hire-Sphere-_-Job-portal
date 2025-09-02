@@ -1,9 +1,11 @@
 import { User } from "../models/user.model.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
+// import cloudinary from "../utils/cloudinary.js";
+// import getDataUri from "../utils/datauri.js";
+
 import cloudinary from "../utils/cloudinary.js";
 import getDataUri from "../utils/datauri.js";
-
 
 // Register a new user with optional profile photo upload
 export const register = async (req, res) => {
@@ -183,4 +185,3 @@ export const updateProfile = async (req, res) => {
     console.log(error);
   }
 };
-

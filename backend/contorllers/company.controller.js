@@ -1,6 +1,6 @@
 import { Company } from "../models/company.model.js";
-import cloudinary from "../Utils/cloudinary.js";
-import getDataUri from "../Utils/dataUri.js";
+import cloudinary from "../utils/cloudinary.js";
+import getDataUri from "../utils/datauri.js";
 
 // Register a new company
 export const registerCompany = async (req, res) => {
@@ -109,10 +109,3 @@ export const updateComapny = async (req, res) => {
     console.log(error);
   }
 };
-
-
-
-
-
-
-
