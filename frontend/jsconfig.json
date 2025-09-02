@@ -1,0 +1,40 @@
+// {
+//   "files": [],
+//   "references": [
+//     {
+//       "path": "./tsconfig.app.json"
+//     },
+//     {
+//       "path": "./tsconfig.node.json"
+//     }
+//   ],
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["./src/*"]
+//     }
+//   }
+// }
+
+
+// {
+//   "compilerOptions": {
+//     "baseUrl": "./src",
+//     "paths": {
+//       "@/*": ["*"]
+//     }
+//   },
+//   "include": ["src"]
+// }
+
+
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",   // ✅ allows JSX in JS files
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src"]
+}
