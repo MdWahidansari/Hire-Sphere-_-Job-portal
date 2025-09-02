@@ -29,7 +29,8 @@ app.use(cookieParser());
 
 // CORS configuration
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || "http://localhost:5173",
+  // origin: process.env.FRONTEND_URL || "http://localhost:5173",
+  origin:"https://hire-sphere-job-portal-6.onrender.com/",
   credentials: true,
 };
 app.use(cors(corsOptions));
