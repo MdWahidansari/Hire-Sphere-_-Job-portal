@@ -2,7 +2,7 @@ import { User } from "../models/user.model.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import cloudinary from "../Utils/cloudinary.js";
-import getDataUri from "../Utils/dataUri.js";
+import getDataUri from "../Utils/datauri.js";
 
 // Register a new user with optional profile photo upload
 export const register = async (req, res) => {
