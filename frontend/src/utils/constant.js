@@ -5,7 +5,7 @@
 export const USER_API_END_POINT = "https://hire-sphere-job-portal-6.onrender.com/api/v1/user";
 
 // Job-related API endpoint
-export const JOB_API_END_PONT = "http://localhost:3000/api/v1/job";
+export const JOB_API_END_PONT = "https://hire-sphere-job-portal-6.onrender.com/api/v1/job";
 
 // Job application-related API endpoint
 export const APPLICATION_API_END_PONT = "https://hire-sphere-job-portal-6.onrender.com/api/v1/application";
