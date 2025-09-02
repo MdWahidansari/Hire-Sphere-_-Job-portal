@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 import path from "path";
 
 // Import Routes
-import connectDB from "./utils/db.js";
+import connectDB from "../utils/db.js";
 import userRoute from "./routes/user.route.js";
 import companyRoute from "./routes/company.route.js";
 import jobRoute from "./routes/job.route.js";
